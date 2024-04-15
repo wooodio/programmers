@@ -1,5 +1,6 @@
 def solution(lottos, win_nums):
     #일치수:순위
+    #키값이 숫자여도 가능
     score={6:1,5:2,4:3,3:4,2:5,1:6,0:6}
     joker= lottos.count(0)
     count = 0
